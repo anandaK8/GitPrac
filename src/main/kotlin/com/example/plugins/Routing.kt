@@ -12,5 +12,14 @@ fun Application.configureRouting() {
         get("/") {
             call.respondText("Hello World!")
         }
+        get("/hello") {
+            call.respondText("Good for you to take initiative in learning git")
+        }
+        get("/success") {
+            call.respondText("You are going to succeed!")
+        }
+//        get("/") {
+//            call.respondText("Hello World!")
+//        }
     }
 }
